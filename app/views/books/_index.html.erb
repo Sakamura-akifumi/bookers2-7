@@ -1,4 +1,5 @@
 <table class='table table-hover table-inverse'>
+  <%= link_to '新しい順', books_path(sort: 'created_at DESC') %> | <%= link_to '評価の高い順', books_path(sort: 'rate DESC') %>
   <thead>
     <tr>
       <th></th>
